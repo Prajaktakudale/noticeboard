@@ -1,0 +1,155 @@
+body{
+	padding: 20px;
+	background-color: #C8F4E9;
+}
+#header{
+	text-align: center;
+}
+.links {
+	float: right;
+}
+.home {
+	position: absolute;
+	top :60px;
+	width: 1250px;
+	margin: 10px;
+	left :50px;
+}
+.home h1 {
+	text-align: center;
+	margin: 3px;
+	padding: 3px;
+	font-size: 40px;
+}
+.inner {
+	float: left;
+	margin: 2px;
+	border-radius: 5px;
+	background-color: #6CE1C4;
+}
+.inner p {
+	text-align: left;
+	padding: 2px;
+	font-size: 20px;
+	margin-top: 5px;
+	margin-bottom: 0px;
+	margin-left: 10px;
+}
+.inner textarea {
+	margin-bottom: 10px;
+	margin-left: 10px;
+	margin-right: 10px;
+	margin-top: 0px;
+	padding: 3px;
+	width: 380px;
+	font-size: 20px;
+	height: 220px;
+	border: 1px solid #dddddd;
+	background-color:#32997F;
+	color: black;
+	border-radius: 4px;
+}
+.login {
+	background-color:#32997F;
+	border-radius: 8px;
+	width: 600px;
+	height: 350px;
+	padding: 25px;
+	margin-top: 145px;
+	margin-left: 265px;
+	padding-top: 10px;
+	left: 350px;
+	top: 200px;
+	text-align: center;
+	box-shadow: 0px 0px 3px;
+}
+
+.login h1 {
+	box-shadow: 0px 0px 3px;
+	font-size: 40px;
+	background-color: #F4F4F4;
+	border-radius: 5px;
+	padding: 10px;
+	text-align: center;
+}
+#loginDiv{
+	width:425px;
+}
+#loginDiv input {
+	width:400px;
+}
+.fields {
+	float: left;
+}
+.login	input {
+	width: 75px;
+	height: 30px;
+	border-radius: 5px;
+	text-align: center;
+	margin-top:10px;
+}
+.login { 
+	text-align: center;	
+}
+#loginDiv {
+	margin-left: 100px;
+}
+a {
+	border-radius: 3px;
+  	background-color: #F2F2F2;
+  	border: #F4F4F4;
+	margin: 5px;
+	padding: 2px;
+	font-size: 20px;
+  	text-decoration:none;
+  	color:#000000;
+  	float: left;
+  	box-shadow: 0px 2px 0px;
+}
+a:hover {
+  background-color:#dddddd;
+}
+a:visited {
+  color:#000000;
+}
+.create {
+	position: absolute;
+	top :60px;
+	width: 1250px;
+	margin: 10px;
+	left :50px;
+	background-color: #f4f4f4;
+	border-radius: 10px;
+}
+.create h1 {
+	text-align: center;
+	margin-bottom: 10px;
+	margin-left: 100px;
+	margin-right: 100px;
+	padding: 10px;
+	font-size: 40px;
+	border-radius: 10px;
+	background-color: #dddddd;
+}
+.create textarea {
+	margin: 10px;
+	margin-left: 200px;
+	margin-top: 10px;
+	padding: 20px;
+	width: 800px;
+	font-size: 20px;
+	height: 500px;
+	border: 1px solid #dddddd;
+	background-color: #FAFAFA;
+	border-radius: 5px;
+}
+.create input {
+	margin-left: 200px;
+	margin-top: 10px;
+	width: 100px;
+	height: 30px;
+	background-color: #cccccc;
+}
+.create input:hover {
+	font-size: 17px;
+}

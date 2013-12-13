@@ -1,0 +1,15 @@
+extends layout
+block content
+	div(class='login')
+		h1 Login
+		hr
+		form(name='login', method='post', action='/authentication')
+			div(id='loginDiv')
+				label(class='fields') Email
+				input(name='email',type='text', placeholder='email', required='required')
+				br
+				br
+				label(class='fields') Password
+				input(name='password',type='password', placeholder='password', required='required')
+			br
+			input#button(name='button',type='submit', value='Login')

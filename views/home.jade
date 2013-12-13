@@ -1,0 +1,12 @@
+extends links
+block content
+		br
+		h1(id='header') Notice Board
+		-if(Object.keys(notices)>0)
+		-each val in notices
+			div(class='inner')
+				p #{val.name}
+				br
+				textarea#val(disabled='disabled') #{val.notice}
+				br
+				h3(text-align='center') #{val.date.substring(0,24)}
